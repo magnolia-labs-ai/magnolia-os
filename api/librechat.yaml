@@ -4,8 +4,8 @@ cache: true
 
 mcpServers:
   magnolia-command-center:
-    url: https://magnolia-mcp-server-production.up.railway.app/mcp
-    type: streamable-http
+    url: https://magnolia-mcp-server-production.up.railway.app/sse
+    type: sse
 endpoints:
   custom:
     - name: "OpenRouter"
